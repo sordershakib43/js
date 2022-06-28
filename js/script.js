@@ -1,0 +1,51 @@
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1,
+            autoplay:true,
+            autoplayTimeout:1000,
+            smartSpeed:50,
+            autoplayHoverPause:true,
+            loop:true,
+            
+        },
+        320:{
+            items:2,
+            autoplay:true,
+            autoplayTimeout:1000,
+            smartSpeed:50,
+            autoplayHoverPause:true,
+            loop:true,
+        },
+         
+        425:{
+            items:4,
+            autoplay:true,
+            autoplayTimeout:1000,
+            smartSpeed:50,
+            autoplayHoverPause:true,
+            loop:true,
+        },
+        768:{
+            items:4,
+            autoplay:true,
+            autoplayTimeout:1000,
+            smartSpeed:50,
+            autoplayHoverPause:true,
+            loop:true,
+        },
+        1024:{
+            items:5,
+            autoplay:true,
+            autoplayTimeout:1000,
+            smartSpeed:50,
+            autoplayHoverPause:true,
+            loop:true,
+        },
+         
+    }
+})

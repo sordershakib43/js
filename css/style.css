@@ -1,0 +1,23 @@
+
+    body {
+      background-color: rgb(26, 15, 176);
+    }
+    img{
+        width: 500px;
+        height: 450px;
+        border-radius: 4px;
+    } 
+    .name{
+        width: 450px;
+        height: 450px;
+        border-radius: 8px;
+    }
+    h1{
+        font-size:80px; color:black; background-color:#2abd34; border:10px solid #b82c16;
+        display: inline-block;
+        border-radius: 20px  4px 20px 4px;
+        
+    }
+     
+
+  
